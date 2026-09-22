@@ -1,3 +1,5 @@
+## Methodology
+
 
 The Python script primarily functions as a wrapper for the automation of the photogrammetry workflow. It assists with the creation of 3D models from photographic datasets and the subsequent calculation of measurements from the resulting models. The majority of the photogrammetry processing is performed using RealityScan, while Blender is used for the final geometric calculations.
 
@@ -283,3 +285,9 @@ The complete workflow consists of a combination of manual preparation and automa
 Once the manually prepared project is complete, the remaining processing is automated. Control point measurements are exported, reconstruction regions and masks are generated for each photographic loop, and the resulting data is combined to reconstruct the final 3D nodule model. The model is then exported and processed in Blender to calculate its surface area and volume.
 
 This separation between manual preparation and automated processing ensures that the automated stages operate using explicitly defined control points, distances, and reconstruction parameters rather than relying on assumptions about the photographic dataset.
+
+#### Generative AI Use
+
+Generative AI tools were used as an assistive tool during the development of the software and preparation of the accompanying documentation. Their use included code review and debugging, explanation of programming concepts and software commands, and assistance with drafting and refining technical documentation. The author reviewed and verified the resulting code, technical descriptions, and methodological statements and is responsible for the final content.
+
+

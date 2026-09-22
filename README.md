@@ -316,8 +316,16 @@ Additional documentation is available in:
 
 ---
 
+## AI Assistance
+
+Generative AI tools were used during the development of this project to assist with code development, debugging, technical explanations, and documentation. AI-assisted suggestions were reviewed, modified, and tested by the author, who remains responsible for the implementation, methodology, and contents of this repository.
+
 ## License
 
-Add the applicable project license here.
+This project is licensed under the MIT License. See the LICENSE file for the full license text.
 
+## Author
 
+Leonardo Lin
+
+This project was developed as part of research into automated photogrammetric reconstruction and geometric analysis of nodules.
