@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Configuration id="{2D5793BC-A65D-4318-A1B9-A05044608385}">
+  <entry key="eiExportImageList" value="0" />
+  <entry key="calexTrans" value="0" />
+  <entry key="eiExportFileNaming" value="5" />
+  <entry key="eiExportMasks" value="true" />
+  <entry key="calexHasDisabled" value="0x0" />
+  <entry key="hasCalexFilePath" value="1" />
+  <entry key="calexHasUndistort" value="0" />
+  <entry key="calexFileFormat" value="Export Depth and Mask Images" />
+  <entry key="calexExportUndistorted" value="false" />
+  <entry key="calexFileFormatId" value="{0ABB46B2-4FAA-4CE1-AA39-D96128D39BD9}" />
+  <entry key="calexHasImageExport" value="-1" />
+  <entry key="hasRadianceFieldsTransAABB" value="0" />
+  <entry key="hasCalexFileName" value="0" />
+  <entry key="eiExportDepths" value="false" />
+</Configuration>

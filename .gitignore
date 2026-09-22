@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Application-generated configuration
+batch_photogrammetry_config/
+*_config/
+
+# Logs
+*.log
+log/
+
+# Temporary files
+*.tmp
+temp_*
+
+# Application runtime data
+batch_photogrammetry_runtime/
+
+# Generated project/data files
+data_output.csv
+
+# RealityScan projects
+*.rsproj
+*.rsproj.files
+
+# Photogrammetry data
+*.tif
+*.tiff
+
+# Generated meshes
+*.obj
+*.mtl
+*.fbx
+*.ply
+
+# Rendered images/video
+*.png
+*.jpg
+*.jpeg
+*.mp4
+
+# Blender generated/project files
+*.blend
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
