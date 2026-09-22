@@ -295,9 +295,6 @@ Contains example configuration files.
 
 Contains additional documentation describing the methodology and technical implementation.
 
-### `examples/`
-
-Contains example input structures or other material demonstrating how the workflow is expected to be organised.
 
 ---
 
@@ -323,17 +320,4 @@ Additional documentation is available in:
 
 Add the applicable project license here.
 
-## Author
-
-Add project author and/or organisation information here.
-
-````
-
-### And I would move your academic text here
-
-I'd make:
-
-```text
-docs/methodology.md
-````
 
