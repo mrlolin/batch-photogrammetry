@@ -20,7 +20,7 @@ NOD501
 
 Before the manual processing can begin, an automated process is used to create the initial RealityScan project. This process imports the photographic datasets from the relevant directories and saves a RealityScan project file that can subsequently be manually prepared.
 
-_`batch_photogrammetry.py`_  
+_[`batch_photogrammetry.py`](/src/batch_photogrammetry.py)_  
 _line 777_
 
 ```python
@@ -84,7 +84,7 @@ Once the manual preparation has been completed, the remaining processing steps a
 
 The first automated processing stage exports the manually defined control point measurements to a CSV file.
 
-_`batch_photogrammetry.py`_  
+_[`batch_photogrammetry.py`](/src/batch_photogrammetry.py)_  
 _line 839_
 
 ```python
@@ -119,7 +119,7 @@ For each photographic loop, a new RealityScan scene is created. The images are a
 
 The two control points are also assigned the RealityScan **Ground Point** type (`gpType=1`). This places the control points on the ground plane, corresponding to `Z = 0`. This establishes a consistent reference plane from which the reconstruction region can subsequently be positioned.
 
-`_batch_photogrammetry.py_`  
+_[`batch_photogrammetry.py`](/src/batch_photogrammetry.py)_  
 _line 1094_
 
 ```python
@@ -169,7 +169,7 @@ The original RealityScan project containing the photographic datasets is loaded,
 
 The reconstruction is then performed using the specified multi-view stereo, normal-model, and texture settings. The resulting mesh is saved as a new RealityScan project and exported as an OBJ file.
 
-_`batch_photogrammetry.py`_  
+_[`batch_photogrammetry.py`](/src/batch_photogrammetry.py)_  
 _line 1239_
 
 ```python
@@ -208,7 +208,7 @@ The final stage uses Blender to calculate the geometric properties of the recons
 
 For each imported mesh, a BMesh representation is created. The number of faces, surface area, and volume are then calculated from the reconstructed geometry.
 
-_blender_script.py_
+_[`blender_script.py`](/scripts/blender_script.py)_  
 _line 111_
 
 ```python
@@ -246,7 +246,7 @@ Therefore, the calculated volume in cubic metres is multiplied by 1,000,000 to o
 
 In addition to the measurements of the reconstructed mesh, a convex hull is generated from the same geometry. The convex hull is the smallest convex surface that completely encloses the original mesh. This provides a second set of area and volume measurements based on the convexified geometry.
 
-_blender_script.py_
+_[`blender_script.py`](/scripts/blender_script.py)_  
 _line 121_
 
 ```python
